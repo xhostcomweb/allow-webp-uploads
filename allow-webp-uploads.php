@@ -1,11 +1,14 @@
 <?php
 /**
- * Plugin Name: Xhostcom Allow Webp Uploads
- * @author            Paul Anthony McGowan
- * @copyright         2019  Xhostcom
- * @license           GPL-2.0-or-later
+ * Plugin Name:       Allow Webp Uploads
  * Plugin URI:        https://example.com/plugin-name
  * Description:       Plugin to allow upload of webp files/extension in Wordpress.
+ * Author:            Paul Anthony McGowan
+ * Author URI:        https://www.xhostcom.com
+ * Text Domain:       allow-webp-uploads
+ * License:           GPL v2 or later
+ * Version:           1.0.0
+ * Requires at least: Wordpress 4.4
  */
 
 function webp_file_and_ext( $mime, $file, $filename, $mimes ) {
